@@ -11,5 +11,5 @@ func ToCelsius(f float64) float64{
 // in Celsius to Fahreinheit and returns the
 // value
 func ToFahreinheit(c float64) float64{
-	return (c * 9 / 5 + 32)
+	return (c * 9 / 5) + 32
 }
